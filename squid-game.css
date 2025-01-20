@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.bgc_image{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-position: top;
+    
+}
+    
+.a{
+    height: 1680px;
+    width: 100%;    
+    text-align: center;
+    color: white;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(transparent,transparent,rgb(29, 28, 28),rgb(29, 28, 28));
+    background-attachment: fixed;
+
+}
+.heading_part {
+    width: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+  ul{
+    margin-top: 10px;
+    font-size: large;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width:50%;
+  
+    justify-content:space-between;
+  }
+   .line{
+    width: 50%;
+    height: 5px;
+    margin-top: 10px;
+  
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color:  rgba(252, 248, 248, 0.1);
+   
+   .inline{
+    height: 5px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(31, 155, 105);
+    position: relative ;
+    right: 10px;
+   }
+}
+}
+
+
+.squid_game {
+    margin-top: 30px;
+}
+ 
+
+.cir5
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(252, 248, 248, 0.1);
+    font-size: 0.3rem;
+    margin-left: 750px;
+    margin-right: 750px;
+    
+    border-radius:50%;
+    padding: 6px;
+    scale: 2.5;
+}
+
+.stars{
+
+    color: aqua;
+    padding-bottom: 20px;
+   
+}
+
+.drama{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-direction: row;
+    
+    ul{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        flex-direction: row;      
+        margin-left: 680px;
+        margin-right: 680px;
+        list-style-type: none;
+        text-align: left;  
+    }
+    .box{
+        
+   background-color:  rgba(252, 248, 248, 0.1);
+   border-radius:5px;
+   height: 30px;
+   width: 30px;
+   padding-top: 8px;
+   padding-left: 6px;
+   margin-top: 10px;
+   font-size: 0.8rem;
+   margin-right: 20px;
+   
+    }
+    
+    span{
+        color: aqua;
+        font-size: 1.6rem;
+    }
+}
+
+
+.seasons{
+   padding-top:2px;
+   background-color: rgba(252, 248, 248, 0.1);
+   text-align: center;
+  
+   width: 180px;
+     margin-top: 25px;
+   margin-left: 700px;
+   margin-right: 700px;
+   border-radius: 2px;
+   margin-bottom: 20px;
+}
+.para{
+    margin-top: 20px;
+    padding:0 100px;
+    margin-bottom: 30px;
+}
+.Trialer{
+    background-color: white;
+    color: black;
+   border: 1px solid red;
+    border-radius: 15px;
+   text-align: center;
+    width: 220px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   margin-bottom: 20px;
+}
+.icons{
+    
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    
+    width: 200px;
+    i{
+        background-color:rgba(252, 248, 248, 0.1) ;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        padding-top: 7.5px;
+
+    }
+}
+
+.pro{
+   list-style-type:none;
+}
+.opt{
+    margin-top: 40px;
+    width: 500px;
+    option{
+    color: rgb(10, 9, 9);
+    background-color: rgb(255, 2, 2);
+   }
+ select{
+    background-color: transparent;
+    color: red;
+    width: 500px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+    
+label{
+    position: relative;
+    top: -1px;
+    
+    left: -189px;
+}
+}
+
+.below_playlist{
+    background-color:rgba(252, 248, 248, 0.1) ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 7.0px;
+    padding-bottom: 5px;
+    margin-top: 80px;
+    position:relative;
+   top: -5px;
+   left: 240px;
+}
+
+.videos_list{
+    margin-top: 40px;
+   img{    
+    display: block;
+    position: relative;
+    left:-100px;
+    border-radius: 5px;
+    }
+    ol{
+       display: flex;
+       flex-direction: row;
+       list-style-type: none;
+       
+       margin-top: -85px;
+       padding-bottom: 50px;
+       justify-content: space-evenly;
+       .time{
+        position: relative;
+        background-color: rgba(252, 248, 248, 0.1);
+        
+        height: 20px;
+      
+        text-align: center;
+        border-radius: 5px;
+       }
+      
+    }
+    p{
+        background-color:rgba(252, 248, 248, 0.04) ;
+        position: relative;
+        border-radius: 5px;
+        font-size: 0.7rem;
+        left: 40px;
+        top: -40px;
+        width: 360px;
+    }
+    ul{
+       
+        position: relative;
+        list-style-type: none;
+        justify-content: 10px;
+        left: 240px;
+        bottom: 135px;
+        li{
+            padding: 20px;
+        }
+    } 
+    .bottom-videos{
+       
+        margin-bottom: -110px;
+    }
+    .top-video{
+        margin-bottom: -130px;
+    }
+}
+
